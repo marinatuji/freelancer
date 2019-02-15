@@ -1,14 +1,51 @@
-.menu {
-    background-color:;
-    font-family: ;
-    color:;
-    position: ;
+.home{
+	font-family: 'Lato', 'Montserrat';
+	margin: 0;
+}
+.initial{
+  background-color: #212529;
+  color:white;
+  font-family: Lato;
+  height: 5vw;
+  /* position: sticky;     */
+  display: flex;
+  width: 100%;
+	height: 100%;
+	justify-content: space-around;
+	align-items: center;
 }
 
-.image {
-    width:;
+.menu{  
+	display: flex;
 }
 
-.welcome {
-    color:;
+li{
+	list-style: none;
+	margin-left: 10%;
+}
+
+.image{
+  width:;
+}
+
+.welcome{
+  background-color: #18bc9c;
+  color:white;
+  display: flex;
+  justify-content: center;
+}
+
+.portfolio{
+	background-color: white;
+  color: black;
+}
+
+.about{
+  background-color: #18bc9c;
+  color:white;
+}
+
+.contact-me{
+	background-color: white;
+	color: black;
 }
